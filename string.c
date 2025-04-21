@@ -9,7 +9,7 @@ int main()
     }
     for (int i = 0; i < 5; i++)
     {
-        printf("%c\n", str[i]);
+        printf("%c", str[i]);
     }
     return 0;
 }
