@@ -1,10 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    char s[10];
-    scanf("%s", s);
-    for(int i = 0; i < 10; i++){
-        printf("%c", s[i]);
-    }
+    char s[9] = "hello bd";
+    printf("%s", s);
     return 0;
 }
